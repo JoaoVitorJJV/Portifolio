@@ -1789,6 +1789,7 @@ body .symp-btn{
 		margin-bottom:40px;
 		text-align:center;
 	}
+	
 	.info-list > li{
 		width:50%;
 	}
@@ -1898,6 +1899,9 @@ body .symp-btn{
 	.front-person-links{
 		margin-top:65px;
 	}
+	.img-none{
+		display:block;
+	}
 	.front-person-img{
 		width:65%;
 		padding-top:65%;
@@ -1914,4 +1918,42 @@ body .symp-btn{
 		bottom:0;
 		left:-40px;
 	}
+}
+	.main{
+		margin-top: -124px;
+    	transform: rotate(316deg);
+    	margin-left: -129px;
+	}
+@media (min-width:200px) and (max-width:431px){
+	.main{
+		margin-top: -201px;
+			transform: rotate( 
+		316deg);
+			margin-left: -40px;
+		
+		height: 0 !important;
+		width:100vw;
+		
+	}
+
+	.typing{
+		font-size: 8px !important;
+	}
+}
+@media (min-width:529px) and (max-width:854px){
+	.main{
+		margin-top: -379px;
+			transform: rotate( 
+		316deg);
+			margin-left: -40px;
+		
+		height: 0 !important;
+		width:100vw;
+		
+	}
+
+	.typing{
+		font-size: 10px !important;
+	}
+
 }
